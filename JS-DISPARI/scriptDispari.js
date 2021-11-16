@@ -9,7 +9,7 @@
 // - 1 -
 alert ('Ciao!');
 
-let userTeam = prompt ('Team Pari o Team Dispari?');
+let userTeam = prompt ('Scegli: Pari o Dispari?');
 console.log(userTeam);
 
 let userNum = parseInt (prompt ('Inserisci un Numero da 1 a 5'));
