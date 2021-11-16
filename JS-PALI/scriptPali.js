@@ -6,3 +6,25 @@
 // - 1 -
 let userWord = prompt ('Inserisci una Parola');
 console.log(userWord);
+
+
+// - 2 -
+
+
+var parolaInversa = invertiParola(userWord);
+
+if(userWord == parolaInversa){
+    console.log('la parola è palindroma');
+  } else {
+    console.log('la parola non è palindroma');
+  }
+  
+
+function invertiParola(str){
+  var strInversa = str.split('').reverse().join('');  
+  return strInversa;
+}
+
+//Commento onesto: SOLUZIONE TROVATA SU INTERNET
+
+
