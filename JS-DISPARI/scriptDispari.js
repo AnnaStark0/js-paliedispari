@@ -5,3 +5,15 @@
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
 // Dichiariamo chi ha vinto.
 
+alert ('Ciao!');
+
+let userTeam = prompt ('Team Pari o Team Dispari?');
+console.log(userTeam);
+
+let userNum = parseInt (prompt ('Inserisci un Numero da 1 a 5'));
+console.log(userNum);
+
+
+
+
+
