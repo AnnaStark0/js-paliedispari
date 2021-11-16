@@ -31,6 +31,15 @@ console.log(somma);
 
 
 // - 4 -
+function isOddEven(number) {
+    if (number % 2 == 0) {
+        return 'pari';
+    }
+    return 'dispari';
+}
+
+let result = isOddEven (somma);
+console.log(result);
 
 
 
