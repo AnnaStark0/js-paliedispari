@@ -42,6 +42,14 @@ let result = isOddEven (somma);
 console.log(result);
 
 
+// - 5 -
+if (userTeam == result) {
+    console.log('You Win!');
+} else {
+    console.log('You Lose!');
+}
+
+
 
 
 
