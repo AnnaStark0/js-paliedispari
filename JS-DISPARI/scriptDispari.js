@@ -15,14 +15,22 @@ console.log(userTeam);
 let userNum = parseInt (prompt ('Inserisci un Numero da 1 a 5'));
 console.log(userNum);
 
+
 // - 2 -
 function randomNumber(min , max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let pcNumber = randomNumber (1, 5);
-console.log(pcNumber);
+let pcNum = randomNumber (1, 5);
+console.log(pcNum);
 
+
+// - 3 -
+let somma = userNum + pcNum;
+console.log(somma);
+
+
+// - 4 -
 
 
 
